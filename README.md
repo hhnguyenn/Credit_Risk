@@ -1,10 +1,6 @@
 # Credit_Risk
 
-## Background
 Credit risk is an unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans.  Use imbalanced-learn and scikit-learn libraries to build and evaluate machine learning models using resampling.  
-
-## Resources
-LoanStats_2019Q1.csv
 
 ## Objective
 - Compare two oversampling algorithms (Naïve Random Oversampling and SMOTE) to determine which algorithm results in the best performance.
