@@ -2,7 +2,7 @@
 
 Credit risk is an unbalanced classification problem, as the number of good loans easily outnumber the number of risky loans.  Use imbalanced-learn and scikit-learn libraries to build and evaluate machine learning models using resampling.  
 
-## Objective
+## Objective 1
 - Compare two oversampling algorithms (Naïve Random Oversampling and SMOTE) to determine which algorithm results in the best performance.
 - Compare undersampling algorithms (Cluster Centroids algorithm) to determine how they compare to the oversampling methods.
 - Test a combination of over- and under-sampling algorithm to compare the algorithm results to the previous sampling algorithms.
@@ -26,7 +26,7 @@ With the “Combination (Over and Under)” method, specifically the SMOTEENN, t
 The accuracy score for models used were all in the 55-66%.  The precision for high risk from all models were very low (1%) whereas the precision for low risk from all model were 100%.  I do not recommend any models to predict high risks as accuracy and precisions are very low.
 
 
-## Objective
+## Objective 2
 Train and compare two different ensemble classifiers to predict loan risk and evaluate each model.
 
 ### Balanced Random Forest
